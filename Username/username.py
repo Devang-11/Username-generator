@@ -1,7 +1,9 @@
 import random
 
-adjectives = ["Cool", "Happy", "Brave", "Funky", "Silly"]
-nouns = ["Tiger", "Dragon", "Phoenix", "Wizard", "Ninja"]
+adjectives = ["Swift", "Mighty", "Bold", "Cheerful", "Luminous", 
+              "Witty", "Fiery", "Gentle", "Zany", "Epic"]
+nouns = ["Falcon", "Knight", "Hawk", "Sorcerer", "Panther", 
+         "Comet", "Rogue", "Viper", "Wolf", "Gladiator"]
 
 def generate_username(add_numbers=True, add_special_chars=True):
     username = random.choice(adjectives) + random.choice(nouns)
